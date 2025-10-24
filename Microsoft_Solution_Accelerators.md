@@ -1,294 +1,134 @@
-# Microsoft Solution Accelerators Repository
+# Active Microsoft Solution Accelerators (no archived repos)
 
-This is a comprehensive list of Microsoft solution accelerators found on GitHub as of October 24, 2025.
+This file lists only currently active (non-archived) Microsoft and Azure solution accelerators discovered in searches and curated as of October 24, 2025. Archived repositories have been intentionally excluded.
 
-## Major Solution Accelerators
+## AI & Machine Learning Accelerators
 
-### AI and Machine Learning Accelerators
+- [Azure Search OpenAI Demo](https://github.com/Azure-Samples/azure-search-openai-demo) ⭐ 7,391
+  - RAG (retrieval-augmented generation) demo using Azure Cognitive Search and Azure OpenAI
+  - Language: Python
 
-1. **[Azure Chat Solution Accelerator](https://github.com/microsoft/azurechat)** ⭐ 1,389
-   - Azure Chat Solution Accelerator powered by Azure Open AI Service
-   - Language: TypeScript
+- [Sample App AOAI ChatGPT](https://github.com/microsoft/sample-app-aoai-chatGPT) ⭐ 1,902
+  - Simple web chat experience using Azure OpenAI (On Your Data)
+  - Language: Python
 
-2. **[Chat with Your Data Solution Accelerator](https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator)** ⭐ 1,120
-   - RAG pattern using Azure AI Search and Azure OpenAI for ChatGPT-style experiences
-   - Language: Python
+- [Chat with Your Data Solution Accelerator](https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator) ⭐ 1,120
+  - RAG pattern with Azure AI Search and Azure OpenAI for enterprise chat & Q&A
+  - Language: Python
 
-3. **[GraphRAG Accelerator](https://github.com/Azure-Samples/graphrag-accelerator)** ⭐ 2,391 (Archived)
-   - One-click deploy of Knowledge Graph powered RAG in Azure
-   - Language: Python
+- [AI-in-a-Box](https://github.com/Azure/AI-in-a-Box) ⭐ 587
+  - Curated AI/ML solution accelerators and deployment patterns
+  - Language: Jupyter Notebook
 
-4. **[Multi-Agent Custom Automation Engine Solution Accelerator](https://github.com/microsoft/Multi-Agent-Custom-Automation-Engine-Solution-Accelerator)** ⭐ 591
-   - AI-driven system managing AI agents powered by Semantic Kernel, Azure Foundry, Azure Cosmos DB
-   - Language: Python
+- [MLOps v2](https://github.com/Azure/mlops-v2) ⭐ 591
+  - Enterprise-ready MLOps templates for Azure Machine Learning
+  - Language: Shell
 
-5. **[AI-in-a-Box](https://github.com/Azure/AI-in-a-Box)** ⭐ 587
-   - Curated collection of AI and ML solution accelerators from Microsoft
-   - Language: Jupyter Notebook
+- [mlops-templates](https://github.com/Azure/mlops-templates) ⭐ 137
+  - MLOps project templates and examples for Azure ML
+  - Language: Python
 
-6. **[Build Your Own Copilot Solution Accelerator](https://github.com/microsoft/Build-your-own-copilot-Solution-Accelerator)** ⭐ 264
-   - Solution to show how to build your own copilot
-   - Language: TypeScript
+- [mlops-project-template](https://github.com/Azure/mlops-project-template) ⭐ 80
+  - Ready-to-use project template for ML model deployment
+  - Language: Python
 
-7. **[AI Hub Gateway Solution Accelerator](https://github.com/Azure-Samples/ai-hub-gateway-solution-accelerator)** ⭐ 209
-   - Central AI API gateway for leveraging Azure AI services
-   - Language: Bicep
+- [AI Hub Gateway Solution Accelerator](https://github.com/Azure-Samples/ai-hub-gateway-solution-accelerator) ⭐ 209
+  - Reference architecture for a central AI API gateway to expose Azure AI services
+  - Language: Bicep
 
-8. **[Conversation Knowledge Mining Solution Accelerator](https://github.com/microsoft/Conversation-Knowledge-Mining-Solution-Accelerator)** ⭐ 367
-   - Derives insights from conversational data using generative AI
-   - Language: Python
+- [Azure-Language-OpenAI-Conversational-Agent-Accelerator](https://github.com/Azure-Samples/Azure-Language-OpenAI-Conversational-Agent-Accelerator) ⭐ 77
+  - Improves RAG chat experiences with Azure Language features (CLU, CQA)
+  - Language: Python
 
-9. **[Document Knowledge Mining Solution Accelerator](https://github.com/microsoft/Document-Knowledge-Mining-Solution-Accelerator)** ⭐ 176
-   - Process and extract summaries from multi-modal documents
-   - Language: C#
+- [aoai-batch-api-accelerator](https://github.com/Azure-Samples/aoai-batch-api-accelerator) ⭐ 14
+  - Batch patterns and examples for Azure OpenAI (AOAI) APIs
+  - Language: Python
 
-10. **[Content Processing Solution Accelerator](https://github.com/microsoft/content-processing-solution-accelerator)** ⭐ 120
-    - Extract data from unstructured documents using Azure AI Foundry
-    - Language: Python
+## Multi-Agent & Conversational Accelerators
 
-### MLOps and Machine Learning Accelerators
+- [Contoso Chat](https://github.com/Azure-Samples/contoso-chat) ⭐ 746
+  - End-to-end RAG application with Azure AI Foundry, Prompty, and deployment automation
+  - Language: Bicep
 
-11. **[MLOps v2](https://github.com/Azure/mlops-v2)** ⭐ 591
-    - Enterprise-ready MLOps templates for Azure Machine Learning
-    - Language: Shell
+- [teams-agent-accelerator-templates](https://github.com/microsoft/teams-agent-accelerator-templates) ⭐ 68
+  - Templates for integrating AI agent paradigms with Microsoft Teams
+  - Language: TypeScript
 
-12. **[MLOps Templates](https://github.com/Azure/mlops-templates)** ⭐ 137
-    - Azure MLOps solution accelerators for machine learning models
-    - Language: Python
+- [postgres-agentic-shop](https://github.com/Azure-Samples/postgres-agentic-shop) ⭐ 48
+  - Agentic retail demo showing multi-agent interactions using Azure Database for PostgreSQL
+  - Language: Python
 
-13. **[MLOps Project Template](https://github.com/Azure/mlops-project-template)** ⭐ 80
-    - Enterprise ready templates for Azure ML model deployment
-    - Language: Python
+- [art-voice-agent-accelerator](https://github.com/Azure-Samples/art-voice-agent-accelerator) ⭐ 22
+  - Omnichannel voice agents with ACS telephony, custom STT→LLM→TTS pipelines, and Foundry Agents
+  - Language: Python
 
-### Industry-Specific Accelerators
+- [call-center-voice-agent-accelerator](https://github.com/Azure-Samples/call-center-voice-agent-accelerator) ⭐ 17
+  - Speech-to-speech voice agents for telephony-integrated self-service experiences
+  - Language: Bicep
 
-14. **[Industry Accelerator - Nonprofit](https://github.com/microsoft/Industry-Accelerator-Nonprofit)** ⭐ 124 (Archived)
-    - Common Data Model for Nonprofits spanning constituent management and fundraising
-    - Language: Not specified
+- [realtime-call-center-accelerator](https://github.com/Azure-Samples/realtime-call-center-accelerator) ⭐ 82
+  - One-click deploy call center automation with OpenAI real-time + Azure Communication Service
+  - Language: Python
 
-15. **[Industry Accelerator - Education](https://github.com/microsoft/Industry-Accelerator-Education)** ⭐ 70 (Archived)
-    - Higher Education Accelerator for ISVs and solution providers
-    - Language: Not specified
+## Document & Business Process Automation Accelerators
 
-16. **[Industry Accelerator - Financial Services](https://github.com/microsoft/Industry-Accelerator-FinancialServices)** ⭐ 57 (Archived)
-    - Business Application and Intelligence Platform for financial services
-    - Language: C#
+- [doc-intelligence-in-a-box](https://github.com/Azure-Samples/doc-intelligence-in-a-box) ⭐ 40
+  - Extract data from PDF forms using Azure Document Intelligence and store results in Cosmos DB
+  - Language: Bicep
 
-17. **[Industry Accelerator - Automotive](https://github.com/microsoft/Industry-Accelerator-Automotive)** ⭐ 53 (Archived)
-    - Industry focused solutions for automotive sector
-    - Language: C#
+- [autoauth-solution-accelerator](https://github.com/Azure-Samples/autoauth-solution-accelerator) ⭐ 18
+  - Prior authorization automation framework using Azure AI
+  - Language: Python
 
-### Business Process and Automation Accelerators
+- [search-qna-maker-accelerator](https://github.com/Azure-Samples/search-qna-maker-accelerator) ⭐ 38
+  - Cognitive Search + QnA scenario solution accelerator
+  - Language: C#
 
-18. **[Business Process Automation](https://github.com/Azure/business-process-automation)** ⭐ 185
-    - Business process automation using Azure services
-    - Language: TypeScript
+- [call-center-forecasting-accelerator](https://github.com/Azure-Samples/call-center-forecasting-accelerator) ⭐ 2
+  - Forecasting models and deployment for call center operations
+  - Language: Jupyter Notebook
 
-19. **[Document Generation Solution Accelerator](https://github.com/microsoft/document-generation-solution-accelerator)** ⭐ 146
-    - Document generation using Azure OpenAI Service and Azure AI Search
-    - Language: TypeScript
+## Edge, Infrastructure, and DevOps Accelerators
 
-20. **[Copilot Metrics Dashboard](https://github.com/microsoft/copilot-metrics-dashboard)** ⭐ 143
-    - Visualize GitHub Copilot metrics using APIs
-    - Language: TypeScript
+- [distributed-az-edge-framework](https://github.com/Azure-Samples/distributed-az-edge-framework) ⭐ 13
+  - Framework for running heavy edge workloads in distributed Kubernetes clusters
+  - Language: C#
 
-### Voice and Communication Accelerators
+- [azure-chaos-engineering](https://github.com/Azure-Samples/azure-chaos-engineering) ⭐ 9
+  - Chaos engineering guidance and tooling for Azure environments
+  - Language: PowerShell
 
-21. **[ART Voice Agent Accelerator](https://github.com/Azure-Samples/art-voice-agent-accelerator)** ⭐ 22
-    - Build omnichannel voice agents on Azure
-    - Language: Python
+- [vision-on-edge-accelerator](https://github.com/Azure-Samples/vision-on-edge-accelerator) ⭐ 6
+  - Vision-based retail solution accelerator for store operations prototypes
+  - Language: Python
 
-22. **[Realtime Call Center Accelerator](https://github.com/Azure-Samples/realtime-call-center-accelerator)** ⭐ 82
-    - Call Center Automation with OpenAI real-time and Azure Communication Service
-    - Language: Python
+- [aml-adb-managed-endpoints](https://github.com/Azure-Samples/aml-adb-managed-endpoints) ⭐ 3
+  - Deploy models from Databricks to Azure ML using Managed Online Endpoints
+  - Language: Jupyter Notebook
 
-### Data and Analytics Accelerators
+## Observability, Governance & Platform Accelerators
 
-23. **[Azure Search Knowledge Mining](https://github.com/Azure-Samples/azure-search-knowledge-mining)** ⭐ 394 (Archived)
-    - Knowledge mining accelerator using Azure Search
-    - Language: CSS
+- [fabric-toolbox](https://github.com/microsoft/fabric-toolbox) ⭐ 505
+  - Tools, scripts and accelerators to accelerate Microsoft Fabric adoption and patterns
+  - Language: Jupyter Notebook
 
-24. **[Gen CV (Vision AI Solution Accelerator)](https://github.com/Azure/gen-cv)** ⭐ 434
-    - Computer vision and generative AI solutions
-    - Language: Jupyter Notebook
+- [fabric-accelerator (community)](https://github.com/bennyaustin/fabric-accelerator) ⭐ 104
+  - Reusable Fabric artifacts and ELT orchestration framework for Fabric-based data platforms
+  - Language: TSQL
 
-25. **[Fabric Toolbox](https://github.com/microsoft/fabric-toolbox)** ⭐ 505
-    - Tools and accelerators for Microsoft Fabric success
-    - Language: Jupyter Notebook
+- [Purview-Custom-Types-Tool-Solution-Accelerator](https://github.com/microsoft/Purview-Custom-Types-Tool-Solution-Accelerator) ⭐ 28
+  - Tooling to create custom type definitions in Microsoft Purview
+  - Language: JavaScript
 
-### Development and DevOps Accelerators
+- [microsoft-data-governance-accelerator](https://github.com/microsoft/microsoft-data-governance-accelerator) ⭐ 17
+  - Templates for accelerating data governance implementations with Microsoft tooling
+  - Language: PowerShell
 
-26. **[Solution Accelerators (General)](https://github.com/microsoft/Solution-Accelerators)** ⭐ 126
-    - General solution accelerators collection
-    - Language: TypeScript
+## Quick Notes
 
-27. **[AI Solution Accelerators List](https://github.com/Azure/ai-solution-accelerators-list)** ⭐ 141
-    - Comprehensive list of Azure AI Solution Accelerators
-    - Language: Not specified
+- This list intentionally excludes archived repositories. If you want archived ones re-included, tell me and I will add them back with an "(Archived)" label.
+- If you want star counts refreshed or additional metadata (topics, last-updated time), I can re-run targeted queries and update the file.
 
-28. **[AcceleratoRs (Data Science)](https://github.com/microsoft/acceleratoRs)** ⭐ 147 (Archived)
-    - Data science and AI solution accelerator suite
-    - Language: HTML
+---
 
-### Specialized Domain Accelerators
-
-29. **[Machine Learning Patient Risk Analyzer](https://github.com/microsoft/Machine-Learning-Patient-Risk-Analyzer-SA)** ⭐ 46
-    - Healthcare ML prediction models for patient risk analysis
-    - Language: C#
-
-30. **[Azure Synapse Retail Recommender](https://github.com/microsoft/Azure-Synapse-Retail-Recommender-Solution-Accelerator)** ⭐ 40
-    - Personalized customer experiences for retail using Azure Synapse
-    - Language: TypeScript
-
-31. **[Purview ADB Lineage Solution Accelerator](https://github.com/microsoft/Purview-ADB-Lineage-Solution-Accelerator)** ⭐ 92
-    - Ingest Azure Databricks lineage into Microsoft Purview
-    - Language: C#
-
-32. **[Azure Non-Fungible Token Solution Accelerator](https://github.com/microsoft/Azure-Non-Fungible-Token-Solution-Accelerator)** ⭐ 32
-    - NFT solution accelerator for Azure
-    - Language: C#
-
-### Emerging and Specialized Accelerators
-
-33. **[Agent for RFP Response Solution Accelerator](https://github.com/microsoft/agent-for-rfp-response-solution-accelerator)** ⭐ 29
-    - AI agent for RFP response automation
-    - Language: Not specified
-
-34. **[Agent for Contract Processing Solution Accelerator](https://github.com/microsoft/Agent-for-Contract-Processing-Solution-Accelerator)** ⭐ 26
-    - AI agent for NDA document creation and management
-    - Language: Not specified
-
-35. **[Agents for Enhanced Customer Care](https://github.com/microsoft/Agents-for-Enhanced-Customer-Care-Solution-Accelerator)** ⭐ 20
-    - Voice channel agents for contact center operations
-    - Language: Not specified
-
-36. **[Modernize Your Code Solution Accelerator](https://github.com/microsoft/Modernize-your-code-solution-accelerator)** ⭐ 75
-    - SQL query translation for modernizing data estates
-    - Language: Python
-
-37. **[Agentic Applications for Unified Data Foundation](https://github.com/microsoft/agentic-applications-for-unified-data-foundation-solution-accelerator)** ⭐ 11
-    - Unifies enterprise data with Microsoft Fabric and agentic AI
-    - Language: TSQL
-
-## Microsoft Partner and Third-Party Accelerators
-
-### MSUSAzureAccelerators Organization
-
-38. **[Conversational Azure OpenAI Accelerator](https://github.com/MSUSAzureAccelerators/Conversational-Azure-OpenAI-Accelerator)** ⭐ 63
-    - ChatGPT accelerator by Microsoft partner Zammo.ai
-    - Language: Not specified
-
-39. **[AI-Powered Call Center Intelligence Accelerator](https://github.com/MSUSAzureAccelerators/AI-Powered-Call-Center-Intelligence-Accelerator)** ⭐ 49
-    - Automate call transcriptions and analytics
-    - Language: JavaScript
-
-40. **[Intelligent Document Processing Accelerator](https://github.com/MSUSAzureAccelerators/Intelligent-Document-Processing-Accelerator)** ⭐ 22
-    - Document type recognition and field extraction
-    - Language: CSS
-
-41. **[AI-Powered Insurance Claims Automation Accelerator](https://github.com/MSUSAzureAccelerators/AI-Powered-Insurance-Claims-Automation-Accelerator)** ⭐ 10
-    - Insurance claims processing through intelligent agents with cognitive skills
-    - Language: PowerShell
-
-42. **[Intelligent Supply Chain Management](https://github.com/MSUSAzureAccelerators/Intelligent-Supply-Chain-Management)** ⭐ 17
-    - Supply chain optimization using deep learning forecasts and Azure ML with Ray Cluster
-    - Language: Jupyter Notebook
-
-### Additional Industry and Business Process Accelerators
-
-43. **[Commercial Marketplace SaaS Accelerator](https://github.com/Azure/Commercial-Marketplace-SaaS-Accelerator)** ⭐ 237
-    - Reference implementation for transactable SaaS offers in Microsoft commercial marketplace
-    - Language: C#
-
-44. **[AzOps Accelerator](https://github.com/Azure/AzOps-Accelerator)** ⭐ 162
-    - Integrated CI/CD solution for Microsoft Azure with GitOps approach
-    - Language: PowerShell
-
-45. **[Teams Agent Accelerator Templates](https://github.com/microsoft/teams-agent-accelerator-templates)** ⭐ 68
-    - Collection of templates integrating Microsoft Teams with various AI agent paradigms
-    - Language: TypeScript
-
-46. **[Microsoft AI Value Accelerator](https://github.com/microsoft/dstoolkit-maiva)** ⭐ 32
-    - Microsoft AI Value Accelerator toolkit
-    - Language: Not specified
-
-47. **[Purview Custom Types Tool Solution Accelerator](https://github.com/microsoft/Purview-Custom-Types-Tool-Solution-Accelerator)** ⭐ 28
-    - Solution accelerator for creating custom type definitions in Microsoft Purview
-    - Language: JavaScript
-
-48. **[Microsoft Data Governance Accelerator](https://github.com/microsoft/microsoft-data-governance-accelerator)** ⭐ 17
-    - Templates for accelerated data governance implementations using Microsoft products
-    - Language: PowerShell
-
-49. **[Fabric Accelerator](https://github.com/bennyaustin/fabric-accelerator)** ⭐ 104
-    - Build Microsoft Fabric modern data platform with pre-built reusable items and ELT Framework
-    - Language: TSQL
-
-50. **[Doc Intelligence in-a-Box](https://github.com/Azure-Samples/doc-intelligence-in-a-box)** ⭐ 40
-    - Extract data from PDF forms using Azure AI Document Intelligence and store in Cosmos DB
-    - Language: Bicep
-
-### Multi-Agent Systems and Advanced AI
-
-51. **[Early Access Engineering Solutions](https://github.com/microsoft/Early-Access-Engineering)** ⭐ 22
-    - Solution accelerators from Microsoft Early Access Engineering team
-    - Language: Not specified
-
-52. **[Microsoft Deployment Accelerator for Hybris on Azure](https://github.com/microsoft/microsoft-deployment-accelerator-for-hybris-on-azure)** ⭐ 20 (Archived)
-    - Azure PaaS project to accelerate deployment of hybris e-commerce software
-    - Language: Not specified
-
-## Supporting Tools and Frameworks
-
-53. **[BuildXL (Microsoft Build Accelerator)](https://github.com/microsoft/BuildXL)** ⭐ 980
-    - Microsoft Build Accelerator for faster builds
-    - Language: C#
-
-54. **[Semantic Kernel Bot in a Box](https://github.com/Azure/semantic-kernel-bot-in-a-box)** ⭐ 65
-    - Extensible Semantic Kernel Bot Solution Accelerator
-    - Language: C#
-
-55. **[Virtual Assistant Deployer](https://github.com/microsoft/Virtual-Assistant-Deployer)** ⭐ 10 (Archived)
-    - Deploy Microsoft Virtual Assistant without developer dependencies
-    - Language: PowerShell
-
-### High-Value Azure Samples and Templates
-
-56. **[Azure Search OpenAI Demo](https://github.com/Azure-Samples/azure-search-openai-demo)** ⭐ 7,391
-    - RAG pattern sample app using Azure AI Search and Azure OpenAI
-    - Language: Python
-
-57. **[Contoso Chat](https://github.com/Azure-Samples/contoso-chat)** ⭐ 746
-    - End-to-end RAG application with Prompty and Azure AI Foundry
-    - Language: Bicep
-
-58. **[Azure Search OpenAI Demo C#](https://github.com/Azure-Samples/azure-search-openai-demo-csharp)** ⭐ 800
-    - C# version of the RAG pattern sample for ChatGPT-style experiences
-    - Language: C#
-
-59. **[Sample App AOAI ChatGPT](https://github.com/microsoft/sample-app-aoai-chatGPT)** ⭐ 1,902
-    - Simple web chat experience through Azure OpenAI including On Your Data
-    - Language: Python
-
-## Repository Summary
-
-- **Total Accelerators Found**: 59+ major solution accelerators and high-value samples
-- **Most Starred**: Azure Search OpenAI Demo (7,391 stars), followed by GraphRAG Accelerator (2,391 stars)
-- **Primary Languages**: Python, TypeScript, C#, Jupyter Notebook, Bicep
-- **Key Categories**: 
-  - AI/ML and Agentic Systems (20+ accelerators)
-  - Industry Solutions (Financial Services, Healthcare, Education, Nonprofit)
-  - Business Process Automation (Document processing, workflow automation)
-  - Multi-Agent Systems (Teams integration, conversational AI)
-  - Data Analytics and Governance
-- **Active vs Archived**: Most are actively maintained, some older industry accelerators are archived
-- **New Emerging Areas**: Agentic AI, voice agents, conversational AI, multi-agent orchestration
-
-## Notes
-
-- Many accelerators include Azure Developer CLI (azd) templates for easy deployment
-- Several accelerators are part of the "AI-in-a-Box" framework
-- Industry-specific accelerators for Nonprofit, Education, Financial Services, and Automotive are archived but still available
-- New focus areas include agentic AI, voice agents, and conversational AI
-
-This list represents the current state of Microsoft's solution accelerator ecosystem as of October 2025. For the most up-to-date information, please check the individual repositories directly.
+*Maintained: October 24, 2025 — Active-only accelerators*
